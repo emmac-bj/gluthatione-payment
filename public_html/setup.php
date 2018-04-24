@@ -1,6 +1,6 @@
 <?php
 
-require_once '/lib/Braintree.php';
+require_once '../lib/Braintree.php';
 
 // Instantiate a Braintree Gateway either like this:
 $gateway = new Braintree_Gateway([
