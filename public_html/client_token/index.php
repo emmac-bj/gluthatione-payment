@@ -1,4 +1,5 @@
 <?php
+require_once('../setup.php');
 $aCustomerId = "Something";
 $clientToken = $gateway->clientToken()->generate([
     "customerId" => $aCustomerId
